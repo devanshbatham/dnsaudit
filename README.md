@@ -20,7 +20,7 @@ To install dnsaudit, follow these steps:
 
 
 ```
-go install github.com/devanshbatham/dnsaudit/cmd/dnsaudit@latest
+go install github.com/devanshbatham/dnsaudit@latest
 ```
 
 # Usage

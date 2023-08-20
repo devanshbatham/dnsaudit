@@ -33,7 +33,7 @@ dnsaudit is a tool for auditing DNS configurations. Here are some examples of ho
 
 - Update the audit results for a domain:
   ```sh
-  dnsaudit -domain "example.com" -update
+  dnsaudit -domain example.com -update
   ```
 
 Here are the available command-line flags:

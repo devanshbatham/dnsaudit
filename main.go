@@ -76,7 +76,7 @@ func printColoredText(colorCode int, text string) {
 
 func main() {
 	domainPtr := flag.String("domain", "", "Domain name to query")
-	updatePtr := flag.Bool("update", false, "Update domain test")
+	updatePtr := flag.Bool("update", false, "Update cached results")
 
 	flag.Parse()
 	    // Print tool banner

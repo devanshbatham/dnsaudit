@@ -113,7 +113,7 @@ func main() {
 		time.Sleep(30 * time.Millisecond)
 		fmt.Printf("\x1b[32m[INFO]\x1b[0m Scan results should be available in ~30 secs\n")
 		time.Sleep(30 * time.Millisecond)
-		fmt.Printf("\x1b[32m[INFO]\x1b[0m Run 'dnsaudit -d %s' again after 30 secs\n", *domainPtr)
+		fmt.Printf("\x1b[32m[INFO]\x1b[0m Run 'dnsaudit -domain %s' again after 30 secs\n", *domainPtr)
 		time.Sleep(30 * time.Millisecond)
 		fmt.Printf("\x1b[32m[INFO]\x1b[0m Quitting...\n")
 		return
